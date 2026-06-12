@@ -1,0 +1,13 @@
+name:zeeshan rafiq
+
+on: 
+  push:
+   branches:[main]
+
+ jobs:
+  demo:
+   runs-on:ubunto-latest
+
+  steps:
+   -name:greeting
+    run:echo hello apun
